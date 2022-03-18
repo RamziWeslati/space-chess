@@ -1,14 +1,14 @@
-import { Bishop } from "./Bishop";
-import { King } from "./King";
-import { Knight } from "./Knight";
-import { Pawn } from "./Pawn";
-import { Queen } from "./Queen";
-import { Rook } from "./Rook";
+import { Bishop } from "./Bishop"
+import { King } from "./King"
+import { Knight } from "./Knight"
+import { Pawn } from "./Pawn"
+import { Queen } from "./Queen"
+import { Rook } from "./Rook"
 
 type PieceProps = {
-  color: "white" | "black";
-  rotate?: boolean;
-};
+  color: "white" | "black"
+  rotate?: boolean
+}
 
-export type { PieceProps };
-export { King, Queen, Rook, Bishop, Knight, Pawn };
+export type { PieceProps }
+export { King, Queen, Rook, Bishop, Knight, Pawn }

@@ -1,5 +1,5 @@
-import React from "react";
-import { PieceProps } from ".";
+import React from "react"
+import { PieceProps } from "."
 
 const Queen: React.FC<PieceProps> = ({ color, rotate }) => (
   <svg
@@ -42,6 +42,6 @@ const Queen: React.FC<PieceProps> = ({ color, rotate }) => (
       </g>
     </g>
   </svg>
-);
+)
 
-export { Queen };
+export { Queen }

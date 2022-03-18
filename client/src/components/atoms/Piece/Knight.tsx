@@ -1,5 +1,5 @@
-import React from "react";
-import { PieceProps } from ".";
+import React from "react"
+import { PieceProps } from "."
 
 const Knight: React.FC<PieceProps> = ({ color, rotate }) => (
   <svg
@@ -48,6 +48,6 @@ const Knight: React.FC<PieceProps> = ({ color, rotate }) => (
       />
     </g>
   </svg>
-);
+)
 
-export { Knight };
+export { Knight }

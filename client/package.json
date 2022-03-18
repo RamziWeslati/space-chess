@@ -16,6 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\"",
+    "lint-style": "stylelint \"src/**/*style.{js,ts,jsx,tsx}\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -37,5 +39,10 @@
       "last 1 safari version"
     ]
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "prettier": "2.6.0",
+    "stylelint": "^14.6.0"
+  }
 }

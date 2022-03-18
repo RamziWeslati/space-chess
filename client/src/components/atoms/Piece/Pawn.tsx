@@ -1,5 +1,5 @@
-import React from "react";
-import { PieceProps } from ".";
+import React from "react"
+import { PieceProps } from "."
 
 const Pawn: React.FC<PieceProps> = ({ color, rotate }) => (
   <svg
@@ -27,6 +27,6 @@ const Pawn: React.FC<PieceProps> = ({ color, rotate }) => (
       }}
     />
   </svg>
-);
+)
 
-export { Pawn };
+export { Pawn }

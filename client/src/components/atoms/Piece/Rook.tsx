@@ -1,5 +1,5 @@
-import React from "react";
-import { PieceProps } from ".";
+import React from "react"
+import { PieceProps } from "."
 
 const Rook: React.FC<PieceProps> = ({ color }) => (
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width={45} height={45}>
@@ -90,6 +90,6 @@ const Rook: React.FC<PieceProps> = ({ color }) => (
       />
     </g>
   </svg>
-);
+)
 
-export { Rook };
+export { Rook }

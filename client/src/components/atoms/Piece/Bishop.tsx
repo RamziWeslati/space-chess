@@ -1,5 +1,5 @@
-import React from "react";
-import { PieceProps } from ".";
+import React from "react"
+import { PieceProps } from "."
 
 const Bishop: React.FC<PieceProps> = ({ color, rotate }) => (
   <svg
@@ -36,6 +36,6 @@ const Bishop: React.FC<PieceProps> = ({ color, rotate }) => (
       />
     </g>
   </svg>
-);
+)
 
-export { Bishop };
+export { Bishop }
