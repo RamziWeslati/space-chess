@@ -9,6 +9,8 @@ describe("<Board />", () => {
       dark: Color.lightGreen,
       light: Color.lightYellow,
     },
+    getLegalMovesForPiece: jest.fn(() => []),
+    updateGame: jest.fn(() => []),
   }
 
   it("should render", () => {

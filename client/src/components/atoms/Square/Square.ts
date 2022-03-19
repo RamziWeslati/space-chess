@@ -1,9 +1,9 @@
-import styled from "styled-components";
-import { Color } from "../../../stylesheet";
+import styled from "styled-components"
+import { Color } from "../../../stylesheet"
 
 type Props = {
-  color: Color;
-};
+  color: Color
+}
 
 const Square = styled.div`
   display: flex;
@@ -12,6 +12,6 @@ const Square = styled.div`
   width: 100%;
   height: 100%;
   background-color: ${(props: Props) => props.color};
-`;
+`
 
-export default Square;
+export default Square

@@ -1,4 +1,5 @@
 import { King, Queen, Rook, Bishop, Knight, Pawn } from "."
+import { SquareOccupantNotation } from "../../../service/game/board"
 
 export enum PieceNotation {
   WP = "White Pawn",
@@ -15,7 +16,7 @@ export enum PieceNotation {
   BK = "Black King",
 }
 
-export const renderPiece = (piece: PieceNotation | null) => {
+export const renderPiece = (piece: SquareOccupantNotation) => {
   if (!piece) return null
 
   const { BR, BN, BB, BK, BQ, BP, WR, WN, WB, WK, WQ, WP } = PieceNotation
