@@ -3,7 +3,7 @@ import Square from "../../atoms/Square"
 import { Color } from "../../../stylesheet"
 import { BoardContainer, RowContainer } from "./Board.style"
 
-type BoardTheme = {
+export type BoardTheme = {
   light: Color
   dark: Color
 }
@@ -11,12 +11,12 @@ type BoardTheme = {
 type SquareMode = keyof BoardTheme
 
 type Props = {
-  population: JSX.Element[][]
+  population: (JSX.Element | null)[][]
   theme: BoardTheme
 }
 
 const renderRow = (
-  population: JSX.Element[],
+  population: (JSX.Element | null)[],
   theme: BoardTheme,
   startColor: SquareMode,
 ) => {
